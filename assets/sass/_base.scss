@@ -1,0 +1,51 @@
+// ==== main design ==== 
+
+.bg_1{
+    background: url("../img/1.jpg") center center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    position: relative;
+    z-index: 1;
+    overflow-y: hidden;
+    .bg_overlay {
+        position: absolute;
+        width: 70%;
+        height: 900px;
+        background: #1d2b37;
+        opacity: .89;
+        top: -110px;
+        left: -129px;
+        z-index: -1;
+        transform: rotate(-10deg);
+    }
+    
+}
+
+
+.bg_2{
+    background: url("../img/2.jpg") center center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    position: relative;
+    z-index: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    .bg_overlay_2{
+        position: absolute;
+        width: 68%;
+        height: 900px;
+        background: #1d2b37;
+        opacity: .89;
+        top: -110px;
+        right: -129px;
+        z-index: -1;
+        transform: rotate(-10deg);
+    }
+}
+
+.padding{
+    height: 10px;
+    width: 100%;
+    color: #fff;
+    
+}

@@ -1,0 +1,83 @@
+/* Template Name : alex-Startup Agency Template
+Author Name : Nadia Tamanna Nitu
+Description : Startup Agency Template
+Keywords :  bootstrap, startup
+Version : 1.0 */
+/* ==== common styles =====  */
+.content_section {
+  padding: 100px 0px;
+  color: #fff;
+  /* background: #000; */
+}
+.content_section .content_text {
+  margin-bottom: 25px;
+  letter-spacing: 2px;
+  font-weight: lighter;
+}
+.content_section .content_text h3 {
+  text-transform: uppercase;
+}
+.content_section .content_text p {
+  margin-bottom: 0px;
+}
+.content_section .btn {
+  text-transform: uppercase;
+  background-color: #fff;
+  color: #1d2b37;
+  font-weight: 600;
+  -webkit-transition: all 0.5 ease;
+  transition: all 0.5 ease;
+}
+.content_section .btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.bg_1 {
+  background: url("../img/1.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow-y: hidden;
+}
+.bg_1 .bg_overlay {
+  position: absolute;
+  width: 70%;
+  height: 900px;
+  background: #1d2b37;
+  opacity: 0.89;
+  top: -110px;
+  left: -129px;
+  z-index: -1;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+.bg_2 {
+  background: url("../img/2.jpg") center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.bg_2 .bg_overlay_2 {
+  position: absolute;
+  width: 68%;
+  height: 900px;
+  background: #1d2b37;
+  opacity: 0.89;
+  top: -110px;
+  right: -129px;
+  z-index: -1;
+  -webkit-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+.padding {
+  height: 10px;
+  width: 100%;
+  color: #fff;
+}
